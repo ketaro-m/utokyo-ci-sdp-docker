@@ -32,3 +32,33 @@ $ docker pull ubuntu:18.04
 $ docker run -it -d --name ubuntu ubuntu:18.04  
 $ docker exec -it ubuntu /bin/bash  
 ```
+
+```bash  
+$ adduser k-murakami  
+$ gpasswd -a k-murakami sudo  
+$ su k-murakami # switch from root to user  
+```
+
+### pyenv
+
+See https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv
+
+
+```bash  
+$ git clone https://github.com/pyenv/pyenv.git ~/.pyenv  
+$ echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc  
+$ echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc  
+$ echo 'eval "$(pyenv init -)"' >> ~/.bashrc  
+
+$ pyenv install 3.8.6  
+$ pyenv rehash # if needed  
+```
+
+I had to install followings.
+
+```bash  
+$ sudo apt install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev  
+$ sudo apt install gcc
+```
