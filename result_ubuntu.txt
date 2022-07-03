@@ -1,0 +1,16 @@
+Python:
+ - Python: 3.8.6 (CPython) 
+ - Build: ('default', 'Jul  3 2022 16:35:46') 
+ - Compiler: GCC 7.5.0 
+PC Info:
+ - OS: Linux-5.10.104-linuxkit-aarch64-with-glibc2.27 
+ - Processor: aarch64 
+   - Core: 4/4 
+ - Memory: 4GB (4,124,368,896 Byte) 
+
+loop_test: 110.3108 ms
+function_call_test: 53.67659999999999 ms
+print_test: 303.9207 ms
+calc_julia_set: 1719.0277999999998 ms
+Thread: 884.8479 ms
+Process: 9299.239800000001 ms
