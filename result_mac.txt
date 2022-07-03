@@ -1,0 +1,16 @@
+Python:
+ - Python: 3.8.6 (CPython) 
+ - Build: ('default', 'Feb  4 2021 00:50:13') 
+ - Compiler: Clang 12.0.0 (clang-1200.0.32.29) 
+PC Info:
+ - OS: macOS-11.5.2-arm64-arm-64bit 
+ - Processor: arm 
+   - Core: 8/8 
+ - Memory: 8GB (8,589,934,592 Byte) 
+
+loop_test: 103.6958 ms
+function_call_test: 58.03099999999999 ms
+print_test: 350.967 ms
+calc_julia_set: 1681.8700999999996 ms
+Thread: 582.4029 ms
+Process: 8478.3633 ms
